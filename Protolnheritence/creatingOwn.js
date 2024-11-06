@@ -7,7 +7,7 @@ function Spin(rounds) {
 
 const s = new Spin(1);
 
-//new Spin.prototype.constructor() ==new Spin();
+//new Spin.prototype.constructor() == new Spin();
 
 function extend(Parent, Child) {
   Child.prototype = Object.create(Parent.prototype);
@@ -16,7 +16,7 @@ function extend(Parent, Child) {
 
 function Fan(speed, rounds) {
   this.speed = speed;
-  Spin.call(this, rounds); // calls th func , is equal to new Spin()
+  Spin.call(this, rounds); // calls the func , is equal to new Spin()
 }
 
 extend(Spin, Fan);

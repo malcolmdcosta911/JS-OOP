@@ -12,10 +12,9 @@ function StopWatch() {
 
   this.stop = function () {
     if (!running) throw new Error("StopWatch is not started");
-
     endTime = new Date();
     running = false;
-    duration = (endTime.getTime() - startTime.getTime()) / 1000;
+    duration += (endTime.getTime() - startTime.getTime()) / 1000;
   };
 
   this.reset = function () {

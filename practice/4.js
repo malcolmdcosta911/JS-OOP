@@ -1,6 +1,14 @@
 //4. Write a JavaScript program that creates a class called "BankAccount" with properties for account number and
 //balance. Include methods to deposit and withdraw money from the account. Create some instances of the //"BankAccount"
 //class, deposit some money, and withdraw a portion of it.
+//
+//
+//
+//
+// 11. Write a JavaScript program that creates a class called BankAccount with properties for account number, account holder name, and balance.
+// Include methods to deposit, withdraw, and transfer money between accounts.
+// Create multiple instances of the BankAccount class and perform operations such
+// as depositing, withdrawing, and transferring money
 
 import BankAccount from "./BankAccount.js";
 
